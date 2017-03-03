@@ -1,0 +1,36 @@
+[{
+  "type": "math_fraction",
+  "message0": "FRACTION %1 Numerator %2 %3 Denominator %4 %5",
+  "args0": [
+    {
+      "type": "input_dummy"
+    },
+    {
+      "type": "field_number",
+      "name": "numerator",
+      "value": 0
+    },
+    {
+      "type": "input_value",
+      "name": "numerator",
+      "check": "Number",
+      "align": "RIGHT"
+    },
+    {
+      "type": "field_number",
+      "name": "denominator",
+      "value": 1,
+      "min": 1
+    },
+    {
+      "type": "input_value",
+      "name": "denominator",
+      "check": "Number",
+      "align": "RIGHT"
+    }
+  ],
+  "nextStatement": null,
+  "colour": 315,
+  "tooltip": "",
+  "helpUrl": ""
+}]
